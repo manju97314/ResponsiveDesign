@@ -1,0 +1,51 @@
+/*@media only screen and (max-width: 740px) {
+    h1 { font-size: 4.5em; }
+    h3 { font-size: 2.2em; }
+    h2 { display: block; text-align: center; }
+    #info { float: none; display: block; text-align: center; }
+    #photo {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    #w { padding: 20px 15px; }
+    p { padding: 0; }
+}
+
+@media only screen and (max-width: 570px) {
+    ul li {
+        display: inline-block; 
+        padding-left: 15px; 
+        width: 140px; 
+        background-position: -5px 0px;
+        margin-right: 6px; ;
+        line-height: 1.7em;
+    }
+    #skills-left, skills-right { margin-bottom: 15px; }
+}*/
+
+
+
+@media only screen and (max-width:700px){
+    nav ul{width:100%;background:inherit;position:relative;}
+    nav ul li{width:50%;background:inherit;border-bottom: 1px solid #576979;border-right: 1px solid #576979;box-sizing:border-box;}
+    nav ul li a {text-indent:25px;border:none;}
+    .photo, .info{float:none;text-align:center;}
+    .title{text-align:center;}
+}
+
+@media only screen and (min-width:401px) and (max-width: 699px){
+}
+
+@media only screen and (max-width:400px){
+    nav ul{display:none;}
+    .list-item{float:left;}
+    ul li{width:120px;line-height:20px;}
+    #pull{display:block;height:40px;background:#228eff;line-height:40px;text-indent:16px;text-decoration:none;color:#fff;position:relative;z-index:10;border-bottom:1px solid #fff;}
+    nav #pull:after{content:'';background:url(../img/currys_logo.png) center no-repeat; width:30px;height:30px;position:absolute;right:16px;top:5px;background-size:contain;}
+    nav ul li{width:50%;}
+}
+
+@media only screen and (max-width:320px){
+    nav ul li{width:100%;}
+}
